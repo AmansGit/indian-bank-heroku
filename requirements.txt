@@ -1,0 +1,4 @@
+django==1.11
+psycopg2
+gunicorn
+dj_database_url
