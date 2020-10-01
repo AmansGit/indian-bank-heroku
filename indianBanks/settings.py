@@ -23,8 +23,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'banks'
+    
 ]
+THIRD_PARTY_APP = [
+	'banks'
+]
+INSTALLED_APPS = THIRD_PARTY_APP + INSTALLED_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
